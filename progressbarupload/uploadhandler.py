@@ -47,5 +47,5 @@ class ProgressBarUploadHandler(TemporaryFileUploadHandler):
         # progress request happens after the upload has finished meaning the
         # bar never gets to 100%
         pass
-        #if self.cache_key:
+        # if self.cache_key:
         #    cache.delete(self.cache_key)
